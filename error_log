@@ -1,0 +1,180 @@
+[28-Nov-2017 05:21:59 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[02-Jan-2018 05:10:58 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[20-Jan-2018 04:39:17 America/Fortaleza] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[20-Jan-2018 04:39:17 America/Fortaleza] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Jan-2018 16:38:36 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[25-Jan-2018 03:04:47 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[25-Jan-2018 03:43:17 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[25-Jan-2018 04:20:32 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[15-Feb-2018 11:08:34 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Previous connection attempts failed, server blacklisted' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sa in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[15-Feb-2018 17:32:38 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:32:41 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:32:45 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:32:46 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:32:52 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:33:49 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:33:51 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:33:51 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:33:53 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[15-Feb-2018 17:33:53 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[19-Feb-2018 16:03:41 America/Fortaleza] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Connection refused' in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php:35
+Stack trace:
+#0 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(35): MongoClient->__construct('mongodb://local...', Array)
+#1 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(46): AdapterServiceMongo->getConnection()
+#2 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(58): AdapterServiceMongo->getDb()
+#3 /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php(345): AdapterServiceMongo->getCollection()
+#4 /home/brmalls/public_html/sal/administracao/class/AbstractEntity.class.php(358): AdapterServiceMongo->inserir()
+#5 /home/brmalls/public_html/sal/administracao/class/AcessoOnlineManage.class.php(22): AbstractEntity->inserir()
+#6 /home/brmalls/public_html/sal/config.inc.php(17): AcessoOnlineMan in /home/brmalls/public_html/sal/administracao/class/AdapterServiceMongo.class.php on line 35
+[22-Feb-2018 10:54:16 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:22 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:26 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:31 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:35 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:39 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:54:50 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:01 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:04 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:05 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:05 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:06 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:06 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:06 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:07 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:07 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:07 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:07 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:21 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:28 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:39 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:43 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:45 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:50 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:55:57 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:56:20 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:56:21 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:01 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:02 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:06 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:10 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:12 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:18 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:37 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 10:57:51 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:54 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:57:56 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:26 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:27 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:38 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:39 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:45 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:58:48 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 10:59:33 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 10:59:42 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 10:59:49 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:00:02 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:00:04 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:00:19 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:00:37 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:01:10 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:21 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:26 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:39 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:40 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:49 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:51 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:52 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:01:57 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:01:59 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:02:00 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 11:02:02 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:02:20 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:02:31 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:02:35 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:02:52 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:03:08 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:04:07 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:04:19 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:05:24 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:05:49 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:06:48 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:06:50 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:03 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:42 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:47 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:50 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:57 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:07:58 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:03 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:20 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:44 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:44 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:45 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:46 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:08:47 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[22-Feb-2018 11:09:45 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[22-Feb-2018 12:02:25 America/Fortaleza] PHP Catchable fatal error:  Argument 2 passed to Email::Mensagem_Resposta() must be an instance of Mensagem, instance of MensagemResposta given, called in /home/brmalls/public_html/sal/administracao/class/MensagemManage2.class.php on line 91 and defined in /home/brmalls/public_html/sal/administracao/class/Email.class.php on line 156
+[22-Feb-2018 12:02:32 America/Fortaleza] PHP Catchable fatal error:  Argument 2 passed to Email::Mensagem_Resposta() must be an instance of Mensagem, instance of MensagemResposta given, called in /home/brmalls/public_html/sal/administracao/class/MensagemManage2.class.php on line 91 and defined in /home/brmalls/public_html/sal/administracao/class/Email.class.php on line 156
+[22-Feb-2018 12:02:35 America/Fortaleza] PHP Catchable fatal error:  Argument 2 passed to Email::Mensagem_Resposta() must be an instance of Mensagem, instance of MensagemResposta given, called in /home/brmalls/public_html/sal/administracao/class/MensagemManage2.class.php on line 91 and defined in /home/brmalls/public_html/sal/administracao/class/Email.class.php on line 156
+[22-Feb-2018 12:02:37 America/Fortaleza] PHP Catchable fatal error:  Argument 2 passed to Email::Mensagem_Resposta() must be an instance of Mensagem, instance of MensagemResposta given, called in /home/brmalls/public_html/sal/administracao/class/MensagemManage2.class.php on line 91 and defined in /home/brmalls/public_html/sal/administracao/class/Email.class.php on line 156
+[22-Feb-2018 12:02:38 America/Fortaleza] PHP Catchable fatal error:  Argument 2 passed to Email::Mensagem_Resposta() must be an instance of Mensagem, instance of MensagemResposta given, called in /home/brmalls/public_html/sal/administracao/class/MensagemManage2.class.php on line 91 and defined in /home/brmalls/public_html/sal/administracao/class/Email.class.php on line 156
+[22-Feb-2018 12:37:11 America/Fortaleza] PHP Catchable fatal error:  Method Lojista::__toString() must return a string value in /home/brmalls/public_html/sal/administracao/class/SearchComparer.class.php on line 64
+[26-Feb-2018 09:29:59 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[26-Feb-2018 09:31:53 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82
+[26-Feb-2018 09:32:03 America/Fortaleza] PHP Fatal error:  Call to a member function getIdLojista() on a non-object in /home/brmalls/public_html/sal/administracao/class/LojistaCronogramaManage2.class.php on line 82

@@ -1,0 +1,1 @@
+[06-Feb-2018 16:13:31 America/Fortaleza] PHP Fatal error:  Call to undefined method Url::Banner() in /home/brmalls/public_html/sal/administracao/banner_view.inc.php on line 28

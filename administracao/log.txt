@@ -1,0 +1,201 @@
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$regex] => MongoRegex Object
+                                (
+                                    [regex] => 2014-01-14
+                                    [flags] => i
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$gte] => MongoDate Object
+                                (
+                                    [sec] => 1389664800
+                                    [usec] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$gte] => MongoDate Object
+                                (
+                                    [sec] => 1389664800
+                                    [usec] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$gte] => 2014-01-14
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$regex] => MongoRegex Object
+                                (
+                                    [regex] => 2014-01-14
+                                    [flags] => i
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [datahora] => Array
+                        (
+                            [$regex] => MongoRegex Object
+                                (
+                                    [regex] => 0.00000000 1389664800
+                                    [flags] => i
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [id_curso] => 1390425971
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [titulo] => Array
+                        (
+                            [$regex] => MongoRegex Object
+                                (
+                                    [regex] => mba
+                                    [flags] => i
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [id_curso] => 1390425971
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [$and] => Array
+        (
+            [0] => Array
+                (
+                    [id_curso] => 1390425971
+                )
+
+        )
+
+)

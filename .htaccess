@@ -1,0 +1,135 @@
+RewriteEngine on
+
+#RewriteBase /
+RewriteBase /Cinemateca/
+
+RewriteRule ^entrar$ entrar.php [NC,QSA,L]
+RewriteRule ^painel$ painel.php [NC,QSA,L]
+RewriteRule ^sair$ sair.php [NC,QSA,L]
+RewriteRule ^senha$ senha.php [NC,QSA,L]
+RewriteRule ^entrar-empreendimento$ entrar_empreendimento.php [NC,QSA,L]
+RewriteRule ^usuario-editar$ usuario_editar.php [NC,QSA,L]
+RewriteRule ^notificacoes$ notificacoes.php [NC,QSA,L]
+
+RewriteRule ^lojista-list$ lojista_list.php [NC,QSA,L]
+RewriteRule ^lojista-edit-([a-zA-Z0-9]{32})$ lojista_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^lojista-cronograma-([a-zA-Z0-9]{32})$ lojista_cronograma.php?ide=$1 [NC,QSA,L]
+RewriteRule ^lojista-selecionar$ lojista_selecionar.php [NC,QSA,L]
+
+RewriteRule ^lojista-pessoa-list$ lojista_pessoa_list.php [NC,QSA,L]
+RewriteRule ^lojista-pessoa-list-([a-zA-Z0-9]{32})$ lojista_pessoa_list.php?ide=$1 [NC,QSA,L]
+RewriteRule ^lojista-pessoa-add$ lojista_pessoa_add.php [NC,QSA,L]
+RewriteRule ^lojista-pessoa-edit-([a-zA-Z0-9]{32})$ lojista_pessoa_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^lojista-pessoa-del-([a-zA-Z0-9]{32})$ lojista_pessoa_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^arquivo-list-([a-zA-Z0-9]{32})$ arquivo_list.php?ide=$1 [NC,QSA,L]
+RewriteRule ^arquivo-add-([a-zA-Z0-9]{32})$ arquivo_add.php?ide=$1 [NC,QSA,L]
+RewriteRule ^arquivo-edit-([a-zA-Z0-9]{32})$ arquivo_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^arquivo-del-([a-zA-Z0-9]{32})$ arquivo_del.php?ide=$1 [NC,QSA,L]
+RewriteRule ^arquivo-view-([a-zA-Z0-9]{32})$ arquivo_view.php?ide=$1 [NC,QSA,L]
+RewriteRule ^arquivo-reply-([a-zA-Z0-9]{32})$ arquivo_reply.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^documento-list$ documento_list.php [NC,QSA,L]
+RewriteRule ^documento-add$ documento_add.php [NC,QSA,L]
+RewriteRule ^documento-edit-([a-zA-Z0-9]{32})$ documento_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^documento-del-([a-zA-Z0-9]{32})$ documento_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^disciplina-list$ disciplina_list.php [NC,QSA,L]
+RewriteRule ^disciplina-add$ disciplina_add.php [NC,QSA,L]
+RewriteRule ^disciplina-edit-([a-zA-Z0-9]{32})$ disciplina_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^disciplina-del-([a-zA-Z0-9]{32})$ disciplina_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^eixo-categoria-list$ eixo_categoria_list.php [NC,QSA,L]
+RewriteRule ^eixo-categoria-add$ eixo_categoria_add.php [NC,QSA,L]
+RewriteRule ^eixo-categoria-edit-([a-zA-Z0-9]{32})$ eixo_categoria_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^eixo-categoria-del-([a-zA-Z0-9]{32})$ eixo_categoria_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^eixo-list$ eixo_list.php [NC,QSA,L]
+RewriteRule ^eixo-add$ eixo_add.php [NC,QSA,L]
+RewriteRule ^eixo-edit-([a-zA-Z0-9]{32})$ eixo_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^eixo-del-([a-zA-Z0-9]{32})$ eixo_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^mensagem-list$ mensagem_list.php [NC,QSA,L]
+RewriteRule ^mensagem-add$ mensagem_add.php [NC,QSA,L]
+RewriteRule ^mensagem-edit-([a-zA-Z0-9]{32})$ mensagem_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^mensagem-del-([a-zA-Z0-9]{32})$ mensagem_del.php?ide=$1 [NC,QSA,L]
+RewriteRule ^mensagem-view-([a-zA-Z0-9]{32})$ mensagem_view.php?ide=$1 [NC,QSA,L]
+RewriteRule ^mensagem-reply-([a-zA-Z0-9]{32})$ mensagem_reply.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^curriculo-list$ curriculo_list.php [NC,QSA,L]
+RewriteRule ^curriculo-add$ curriculo_add.php [NC,QSA,L]
+RewriteRule ^curriculo-edit-([a-zA-Z0-9]{32})$ curriculo_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^curriculo-del-([a-zA-Z0-9]{32})$ curriculo_del.php?ide=$1 [NC,QSA,L]
+RewriteRule ^curriculo-view-([a-zA-Z0-9]{32})$ curriculo_view.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^foto-list-([a-zA-Z0-9]{32})$ foto_list.php?ide=$1 [NC,QSA,L]
+RewriteRule ^foto-add-([a-zA-Z0-9]{32})$ foto_add.php?ide=$1 [NC,QSA,L]
+RewriteRule ^foto-edit-([a-zA-Z0-9]{32})$ foto_edit.php?ide=$1 [NC,QSA,L]
+RewriteRule ^foto-del-([a-zA-Z0-9]{32})$ foto_del.php?ide=$1 [NC,QSA,L]
+
+RewriteRule ^index$ index.php [NC,QSA,L]
+RewriteRule ^rss.xml$ rss.php [NC,QSA,L]
+RewriteRule ^fale-conosco$ faleconosco.php [NC,QSA,L]
+RewriteRule ^trabalhe-conosco$ trabalheconosco.php [NC,QSA,L]
+RewriteRule ^contato$ faleconosco.php [NC,QSA,L]
+RewriteRule ^newsletter-remover$ newsletter-remover.php [NC,QSA,L]
+RewriteRule ^pesquisar$ pesquisar.php [NC,QSA,L]
+
+RewriteRule ^associe-se$ associar.php [NC,QSA,L]
+RewriteRule ^associar-cadastro$ associar1.php [NC,QSA,L]
+RewriteRule ^associar-finalizar-([a-zA-Z0-9]{32})$ associar2.php?l=$1 [NC,QSA,L]
+RewriteRule ^associar-finalizar$ associar2.php [NC,QSA,L]
+RewriteRule ^associar-sair$ associar_sair.php [NC,QSA,L]
+RewriteRule ^associar-senha$ associar_senha.php [NC,QSA,L]
+
+RewriteRule ^publicidade\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ publicidade.php?l=$1 [NC,QSA,L]
+RewriteRule ^publicidade-([0-9]+)-([a-zA-Z0-9_-]+)?()$ publicidade.php?l=$1 [NC,QSA,L]
+
+RewriteRule ^agenda$ programacao.php [NC,QSA,L]
+RewriteRule ^calendario$ programacao.php [NC,QSA,L]
+RewriteRule ^calendario-([0-9]+)-([a-zA-Z0-9_-]+)$ programacao.php?l=$1 [NC,QSA,L]
+RewriteRule ^agenda-([0-9]+)-([a-zA-Z0-9_-]+)$ agenda.php?l=$1 [NC,QSA,L]
+RewriteRule ^datas-([0-9]+)-([a-zA-Z0-9_-]+)?()$ agendas.php?l=$1 [NC,QSA,L]
+
+RewriteRule ^publicacoes$ noticias.php
+RewriteRule ^noticias$ noticias.php
+RewriteRule ^noticias\/editoria\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ noticias.php?l=$1
+RewriteRule ^noticia-([0-9]+)$ noticia.php?l=$1 [NC,QSA,L]
+RewriteRule ^noticia-([0-9]+)-([a-zA-Z0-9_-]+)?()$ noticia.php?l=$1 [NC,QSA,L]
+RewriteRule ^noticias-([0-9]+)-([a-zA-Z0-9_-]+)?()$ noticias.php?l=$1 [NC,QSA,L]
+
+RewriteRule ^conteudo\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ conteudo.php?l=$1
+RewriteRule ^pagina\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ pagina.php?l=$1 [NC,QSA,L]
+RewriteRule ^pagina-([0-9]+)-([a-zA-Z0-9_-]+)?()$ pagina.php?l=$1 [NC,QSA,L]
+RewriteRule ^pagina-([a-zA-Z0-9_-]+)()$ pagina.php?l=$1 [NC,QSA,L]
+
+RewriteRule ^artigos$ artigos.php
+RewriteRule ^artigo\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ artigo.php?l=$1
+
+RewriteRule ^enquetes$ enquetes.php	[NC,QSA,L]
+RewriteRule ^enquete-([0-9]+)-([a-zA-Z0-9_-]+)?()$ enquete.php?l=$1	[NC,QSA,L]
+
+RewriteRule ^galeria-fotos$ galeriafotos.php
+RewriteRule ^album-([0-9]+)-([a-zA-Z0-9_-]+)$ album.php?l=$1
+
+RewriteRule ^publicidade\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ publicidade.php?l=$1
+
+RewriteRule ^videos$ videos.php
+RewriteRule ^videos\/categoria\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ videos.php?l=$1
+RewriteRule ^video-([0-9]+)-([a-zA-Z0-9_-]+)$ video.php?l=$1
+
+RewriteRule ^audios$ audios.php
+RewriteRule ^audios-([0-9]+)-([a-zA-Z0-9_-]+)?$ audios.php?l=$1 [NC,QSA,L]
+RewriteRule ^audio\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ audio.php?l=$1
+RewriteRule ^audio-download$ ic-audio-download.php
+RewriteRule ^audio-download\/([.]+)$ audio-download.php?l=$1
+
+RewriteRule ^downloads$ downloads.php
+RewriteRule ^downloads-([0-9]+)-([a-zA-Z0-9_-]+)()?$ downloads.php?l=$1
+RewriteRule ^download-([0-9]+)-([a-zA-Z0-9_-]+)()?$ download.php?l=$1
+RewriteRule ^download-click\/([a-zA-Z0-9]{32})(\/[a-zA-Z0-9_-]+)?(\/)?()?$ downloadclick.php?l=$1
+RewriteRule ^download-click-([0-9]+)-([a-zA-Z0-9_-]+)$ downloadclick.php?l=$1
+
+RewriteRule ^tag\/([a-zA-Z0-9_-]+)?$ tags.php?tag=$1 [NC,QSA,L]
+
+RewriteRule ^([a-zA-Z_-]+)-([0-9]+)-([a-zA-Z0-9_-]+)$ noticia.php?l=$2

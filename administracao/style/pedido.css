@@ -1,0 +1,175 @@
+.bloco {
+	position:relative;
+	float:left;
+	margin:0px 10px 0px 0px;
+	padding:0px 10px 0px 0px;
+	border-right:1px dotted #CCCCCC;
+	height:40px;
+	min-height:35px;
+	overflow:hidden;
+}
+.linha {
+	position:relative;
+	float:left;
+	width:100%;
+	margin:10px 0px 0px 0px;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px dotted #CCCCCC;
+}
+.last {
+	margin-right:0px;
+	padding-right:0px;
+	border:0px;
+}
+.stdtable {
+    width: 100%;
+}
+.stdtable .con0 {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.stdtable .con1 {
+    background: none repeat scroll 0 0 #FCFCFC;
+}
+.stdtable th, .stdtable td {
+    color: #333333;
+    line-height: 21px;
+    vertical-align: middle;
+	border:0px;
+}
+.stdtable thead th, .stdtable thead td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD #DDDDDD #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    padding: 4px 5px;
+    text-align: left;
+}
+.stdtable tfoot th, .stdtable tfoot td {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding: 5px 5px;
+    text-align: left;
+}
+.stdtable thead th:first-child, .stdtable tfoot th:first-child, .stdtable thead td:first-child, .stdtable tfoot td:first-child {
+    border-left: 1px solid #DDDDDD;
+}
+.stdtable thead th.head0, .stdtable tfoot th.head0, .stdtable thead td.head0, .stdtable tfoot td.head0 {
+    background-color: #FCFCFC;
+}
+.stdtable thead th.head1, .stdtable tfoot th.head1, .stdtable thead td.head1, .stdtable tfoot td.head1 {
+    background-color: #F7F7F7;
+}
+.stdtable thead th.nosort {
+    background-image: none !important;
+}
+.stdtable thead td {
+    font-weight: bold;
+}
+.stdtable thead td.center {
+    text-align: center;
+}
+.stdtable tbody tr td {
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    color: #666666;
+    padding: 4px 5px;
+}
+.stdtable tbody tr:last-child td {
+    border-bottom: 1px solid #DDDDDD;
+}
+.stdtable tbody tr td:first-child {
+    border-left: 1px solid #DDDDDD;
+}
+.stdtable tbody tr td:last-child {
+    border-right: 1px solid #DDDDDD;
+}
+.stdtable tbody tr.togglerow td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 15px;
+}
+.stdtable tbody tr.togglerow:hover td {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.form {
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.form .line {
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	color:#666 !important;
+}
+.form .line span {
+	font-weight: bold !important;
+}
+.form .line em {
+	font-size:11px !important;
+}
+.grid_10 .frm {
+	width:767px;
+}
+.grid_9 .frm {
+	width:687px;
+}
+.grid_8 .frm {
+	width:607px;
+}
+.grid_7 .frm {
+	width:527px;
+}
+.grid_6 .frm {
+	width:447px;
+}
+.grid_5 .frm {
+	width:367px;
+}
+.grid_4 .frm {
+	width:287px;
+}
+.grid_3 .frm {
+	width:207px;
+}
+.grid_2 .frm {
+	width:127px;
+}
+.grid_1 .frm {
+	width:47px;
+}
+/**/
+.grid_9 select.frm {
+	width:698px;
+}
+.grid_8 select.frm {
+	width:618px;
+}
+.grid_7 select.frm {
+	width:538px;
+}
+.grid_6 select.frm {
+	width:459px;
+}
+.grid_5 select.frm {
+	width:378px;
+}
+.grid_4 select.frm {
+	width:298px;
+}
+.grid_3 select.frm {
+	width:218px;
+}
+.grid_2 select.frm {
+	width:138px;
+}
+.grid_1 select.frm {
+	width:58px;
+}
